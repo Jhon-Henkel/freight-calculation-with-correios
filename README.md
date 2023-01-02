@@ -22,15 +22,15 @@ Os parâmetros são:
 - height: deve ser do tipo inteiro;
 - length: deve ser do tipo inteiro;
 
-**Todos os parâmetros são obrigatórios.**
-Após ter o objeto do pacote contado, basta instanciar e chamar da seguinte forma:
+Todos os parâmetros são obrigatórios e após ter o objeto do pacote contado, basta instanciar e chamar da seguinte forma:
 ```
 $correios = new ShippingCorreiosBO('88790-000');
 $calc = $correios->calculateShipping($package, '88750-000');
 ```
 - Na variável calc irá retornar um array com chave os códigos de servido do PAC e do SEDEX.
 - Ao instanciar o ShippingCorreiosBO deve-se passar o CEP de origem.
-- AO fazer o cálculo, deve-se passar o objeto do pacote e o CEP de destino.
+- Ao fazer o cálculo, deve-se passar o objeto do pacote e o CEP de destino.
+- É obrigatório informar o objeto de pacote e os CEP's de origem e destino.
 ---
 Os parâmetros fixos passados para os correios nessa biblioteca são:
 ```

@@ -17,7 +17,7 @@ $package->setHeight(10);
 $package->setLength(10);
 ```
 Os parâmetros são:
-- grossWeight: deve ser do tipo inteiro ou float;
+- grossWeight: deve ser do tipo inteiro ou float, sempre deve ser calculado em quilos;
 - width: deve ser do tipo inteiro;
 - height: deve ser do tipo inteiro;
 - length: deve ser do tipo inteiro;
@@ -44,3 +44,5 @@ Os parâmetros fixos passados para os correios nessa biblioteca são:
 'StrRetorno' => 'xml',
 ```
 Em um futuro talvez posso mudar isso para ser mais dinâmico.
+
+Obs.: O coverage dessa biblioteca está em 100% atualmente.

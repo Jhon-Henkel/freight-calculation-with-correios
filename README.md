@@ -1,13 +1,13 @@
 # Integração de cálculo de frete com os correios
 O objetivo desse repositório é entregar uma biblioteca de cálculo de frete com os correios em PHP 8.1.
 
-##Como instalar
+## Como instalar
 Basta fazer a instalação via composer com o seguinte comando:
 ```
 composer require correios/correios-calculate
 ```
 
-##Como usar:
+## Como usar:
 Para usar essa biblioteca deverá primeiramente montar um objeto de cálculo da seguinte forma:
 ```
 $package = ShippingPackageDTO();

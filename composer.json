@@ -1,0 +1,31 @@
+{
+    "name": "correios/correios-calculate",
+    "description": "Integração com calculo de frete dos Correios",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/",
+            "tests\\": "tests/"
+        },
+        "files": []
+    },
+    "scripts": {
+        "php-coverage": "vendor/bin/phpunit --coverage-html ./tests/coverage/",
+        "php-feature": "vendor/bin/phpunit ./tests/Feature"
+    },
+    "authors": [
+        {
+            "name": "Jhonatan Henkel",
+            "email": "jhowrf@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "require": {
+        "ext-curl": "*",
+        "ext-simplexml": "*"
+    }
+}

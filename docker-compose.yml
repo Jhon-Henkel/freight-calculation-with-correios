@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  web:
+    container_name: "correios_app"
+    build: .
+    ports:
+      - "80:80"
+      - "8080:80"
+      - "443:443"
+    volumes:
+      - .:/var/www/html
+    tty: true
+    stdin_open: true

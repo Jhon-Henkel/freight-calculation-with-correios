@@ -22,7 +22,7 @@ Os parâmetros são:
 - height: deve ser do tipo inteiro;
 - length: deve ser do tipo inteiro;
 
-Todos os parâmetros são obrigatórios e após ter o objeto do pacote contado, basta instanciar e chamar da seguinte forma:
+Todos os parâmetros são obrigatórios e após ter o objeto do pacote montado, basta instanciar e chamar da seguinte forma:
 ```
 $correios = new ShippingCorreiosBO('88790-000');
 $calc = $correios->calculateShipping($package, '88750-000');
